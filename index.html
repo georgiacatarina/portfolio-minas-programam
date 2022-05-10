@@ -7,12 +7,18 @@
   <title>
     Portfólio - Georgia Catarina
   </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <navbar>
+  <nav class="menu">
     <ul>
       <li>
-        <a href="#formacao">Formação</a>
+        <a href="#formacao">Formacao</a>
       </li>
       <li>
         <a href="#portfolio">Portfólio</a>
@@ -21,26 +27,26 @@
         <a href="#contato">Contato</a>
       </li>
     </ul>
-  </navbar>
+  </nav>
   <main>
     <figure>
       <img src="./images/perfil-small.jpg" alt="Foto de perfil da Georgia" width="200px" >
     </figure>
-    <h1>Georgia Catarina</h1>
-    <h2>Desenvolvedora web</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut</p>
+    <h1 class="title">Georgia Catarina</h1>
+    <h2 class="subtitle">Desenvolvedora web</h2>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut</p>
   </main>
-  <section id="formacao">
+  <section id="formacao" class="bg-dark">
     <h1>Formação</h1>
     <ul>
       <li>
-        <h4>Curso de desenvolvimento</h4>
+        <h4 id="id">Curso de desenvolvimento</h4>
         <h4>
           <a href="https://minasprogramam.com/" target="_blank">
             Link do curso
           </a>
         </h4>
-        <p>
+        <p class="p-section">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit.
         </p>
       </li>
@@ -57,12 +63,12 @@
       </li>
     </ul>
   </section>
-  <section id="portfolio">
+  <section id="portfolio" class="bg-dark">
     <h1>Portfólio</h1>
     <ul>
       <li>
         <h4>Primeiro projeto</h4>
-        <p>UX</p>
+        <p class="p-section">UX</p>
         <h4>
           <a href="http://localhost:3000/" target="_blank">
             Link do projeto
@@ -86,7 +92,7 @@
       </li>
     </ul>
   </section>
-  <footer id="contato">
+  <footer id="contato" class="bg-dark">
     <div>
       <span class="fas fa-envelope-square"></span>
       <a href="mailto:georgia.catarina@gmail.com" >georgia.catarina@gmail.com</a>
